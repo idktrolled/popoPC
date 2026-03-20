@@ -13,7 +13,7 @@ jobs:
           haxe-version: latest
       - name: run libraries from haxe
         run: |
-          haxelib setup C:/haxelib
+          haxelib setup ~/haxelib
           haxelib install hxcpp > /dev/null
           haxelib install lime
           haxelib install openfl
