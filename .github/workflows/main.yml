@@ -10,11 +10,11 @@ jobs:
       - name: setup-haxe
         uses: krdlab/setup-haxe@master
         with:
-          haxe-version: 4.3.7
+          haxe-version: latest
       - name: run libraries from haxe
         run: |
-          haxelib setup ~/haxelib
-          haxelib install hxcpp > /dev/null
+          haxelib setup C:/haxelib
+          haxelib install hxcpp > /dev/null --quiet
           haxelib install lime
           haxelib install openfl
           haxelib install flixel
