@@ -24,7 +24,7 @@ jobs:
           haxelib install hscript
           haxelib install hscript-ex
           haxelib install linc_luajit
-          haxelib install linc_discord_rpc
+          haxelib install linc_discord_rpc rename discord_rpc
           haxelib git polymod https://github.com/swordcube/scriptless-polymod
           haxelib git faxe https://github.com/ashea-code/faxe
       - name: compile
