@@ -14,7 +14,7 @@ jobs:
       - name: run libraries from haxe
         run: |
           haxelib setup C:/haxelib
-          haxelib install hxcpp > /dev/null --quiet
+          haxelib install hxcpp
           haxelib install lime
           haxelib install openfl
           haxelib install flixel
